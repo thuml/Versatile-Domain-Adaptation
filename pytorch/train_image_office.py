@@ -209,7 +209,7 @@ if __name__ == "__main__":
     # train config
     config = {}
     config["gpu"] = args.gpu_id
-    config["num_iterations"] = 100004
+    config["num_iterations"] = 50004
     config["test_interval"] = args.test_interval
     config["snapshot_interval"] = args.snapshot_interval
     config["output_for_test"] = True
