@@ -15,6 +15,7 @@ VisDA 2017 dataset can be found [here](https://github.com/VisionLearningGroup/ta
 ```
 cd pytorch
 python train_image_office.py --gpu_id 0 --net ResNet50 --dset office --s_dset_path ../data/office/amazon_list.txt --t_dset_path ../data/office/webcam_list.txt --output_dir mcc-uda-office
+python train_image_visda.py --gpu_id 4 --net ResNet101 --dset visda --s_dset_path ../data/visda-2017/train_list.txt --t_dset_path ../data/visda-2017/validation_list.txt --output_dir mcc-uda-visda
 ```
 ## Contact
 If you have any problem about our code, feel free to contact jiny18@mails.tsinghua.edu.cn
